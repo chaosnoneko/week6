@@ -1,0 +1,9 @@
+img {
+    width: 100%;
+}
+.container {
+    display: inline-grid;
+    grid-column-gap: 20px;
+    grid-row-gap: 10px;
+    grid-template-columns: minmax(100px, 350px) 1fr minmax(100px, 350px) ;
+}

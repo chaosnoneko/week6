@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+img {
+  width: 100%;
+  height: 100%;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(8, 150px);
+  grid-template-rows: 30px repeat(4, 150px) 30px;
+  grid-gap: 10px;
+  margin: auto;
+  width: 90%;
+  height: 800px;
+  align-content: center;
+  justify-content: center;
+}
+.name {
+  grid-area: 1 / 1 / 2 / 2;
+  font-weight: bold;
+}
+.number1 {
+  grid-area: 1 / 3 / 2 / 4;
+}
+.number2 {
+  grid-area: 1 / 4 / 2 / 5;
+}
+.number3 {
+  grid-area: 1 / 5 / 2 / 6;
+}
+.number4 {
+  grid-area: 1 / 6 / 2 / 7;
+}
+.menu {
+  grid-area: 1 / 7 / 2 / span 2;
+  font-weight: bold;
+}
+.img1 {
+  grid-area: 2 / 1 / 3 / 2;
+}
+.img2 {
+  grid-area: 2 / 2 / 3 / 3;
+}
+.img3 {
+  grid-area: 5 / 7 / 6 / 8;
+}
+.img4 {
+  grid-area: 4 / 6 / 5 / 7;
+}
+.img5 {
+  grid-area: 3 / 5 / 4 / 6;
+}
+.img6 {
+  grid-area: 3 / 3 / 4 / 4;
+}
+.img7 {
+  grid-area: 4 / 4 / 5 / 5;
+}
+.img8 {
+  grid-area: 4 / 1 / span 2 / span 2;
+}
+.img9 {
+  grid-area: 2 / 7 / span 2 / span 2;
+}
+.design {
+  grid-area: 3 / 4 / 4 / span 2;
+  font-size: 5.5rem;
+  color: red;
+  text-align: justify;
+  margin: 5px;
+  padding: 7px;
+}
+.footerplace {
+  grid-area: -1 / 1 / -2 / 2;
+  font-weight: bold;
+  font-size: smaller;
+}
+.footerdate {
+    grid-area: -1 / 6 / -2 / 7;
+    font-style: italic;
+    font-size: smaller;
+  }

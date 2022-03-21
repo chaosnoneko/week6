@@ -1,0 +1,22 @@
+p {
+    font-size: 40px;
+  }
+  
+  p::before {
+    content: "Before ...";
+    color: red;
+  }
+  
+  p::after {
+    content: "... The end";
+    color: green;
+  }
+  
+  .clip {
+    width: 500px;
+    height: 400px;
+    background: url("./image/p1.jpeg");
+    background-size: cover;
+    clip-path: polygon(50% 0%, 100% 50%, 0% 50%);
+  }
+  
